@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/timabell/podread/issues"
   },
-  "homepage": "https://github.com/timabell/podread#readme"
+  "homepage": "https://github.com/timabell/podread#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
