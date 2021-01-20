@@ -1,5 +1,11 @@
 # PodRead
 
+🚧 Under Construction like it's 1995 🚧
+
+If you want something that actually works I suggest you f'off over here <http://www.narro.co/> (nowt to do with me)
+
+# WTAF?
+
 Tim's janky as fuck pocket/web to podcast converter service
 
 1. put stuff in <getpocket.com>
