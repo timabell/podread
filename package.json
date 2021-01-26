@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc && babel src --out-dir dist --extensions .ts"
+    "compile": "tsc && babel src --out-dir dist --extensions .ts",
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
