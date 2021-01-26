@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc && babel src --out-dir dist --extensions .ts",
     "start": "webpack",
-    "dev": "webpack-dev-server --open"
+    "dev": "webpack serve --open"
   },
   "repository": {
     "type": "git",
