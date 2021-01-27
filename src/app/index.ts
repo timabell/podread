@@ -1,17 +1,13 @@
 console.log("it's a fucking console log, big whoop, what do you want, cheese?");
-
-let x;
 const jack = "allworkandnoplaymakesjackadullboy";
-setTimeout(start, 100);
+let i = 0; let j = 0; let c = 0;
+let x: HTMLElement|null;
 function start(){
     console.log("i will kill ur browser");
     document.body.innerHTML+="<br><span id='x'>&gt; </span>";
     x = document.getElementById('x');
     setInterval(type, 200);
 }
-let i = 0;
-let j = 0;
-let c = 0;
 function type(){
     console.log("tappity tap");
     if (j++==20){
@@ -23,6 +19,9 @@ function type(){
     let l = document.createElement("span");
     l.textContent = jack[i++] + " ";
     l.style.color = `rgb(${c} 3 3)`;
-    x.appendChild(l);
+    if (x){//nullproofer
+        x.appendChild(l);
+    }
     if (i>jack.length){i=0;}
 }
+setTimeout(start, 100);
