@@ -1,5 +1,8 @@
 # PodRead
 
+[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+
+
 🚧 Under Construction like it's 1995 🚧
 
 If you want something that actually works I suggest you f'off over here <http://www.narro.co/> (nowt to do with me)
