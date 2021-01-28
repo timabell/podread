@@ -4,7 +4,7 @@ import {store} from './store'
 
 let state = store.getState();
 console.log(state);
-console.log(state["queue"][0]);
+//console.log(state["queue"][0]); // type error but works
 
 import React from "react";
 import ReactDOM from 'react-dom';
