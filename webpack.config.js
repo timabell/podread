@@ -6,12 +6,16 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.ts$/,
+                test: /\.tsx?$/,
                 loader: 'babel-loader',
             },
         ]
     },
     resolve: {
-        extensions: ['.ts', '.js'],
+        extensions: [
+            '.ts',
+            '.tsx',
+            '.js', // just for node_modules stuff
+        ],
     }
 }
