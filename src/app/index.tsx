@@ -12,6 +12,6 @@ import ReactDOM from 'react-dom';
 import { Queue } from "./queue";
 
 ReactDOM.render(
-    "react app wip",
+    <Queue/>,
     document.getElementById("app")
 );
