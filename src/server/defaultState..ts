@@ -1,3 +1,5 @@
+import queue from "../app/queue";
+
 export class QueueItem {
     get url(): string {
         return this._url;
@@ -22,24 +24,12 @@ export class QueueItem {
     private _url: string;
 }
 
-export class State{
-    get queue(): QueueItem[] {
-        return this._queue;
-    }
-
-    set queue(value: QueueItem[]) {
-        this._queue = value;
-    }
-
-    private _queue: QueueItem[];
-
-    constructor(queue: QueueItem[]) {
-        this._queue = queue;
-    }
-}
+import RootState from '../server/RootState'
 export const defaultState =
-    new State(
-    [
-        new QueueItem(1, "https://charity.wtf/2021/01/23/questionable-advice-how-do-i-feel-worthwhile-as-a-manager-when-my-people-are-doing-all-the-implementing/"),
-    ]);
+    new RootState
+    {
+    queue: [
+        new QueueItem(1,
+            "https://charity.wtf/2021/01/23/questionable-advice-how-do-i-feel-worthwhile-as-a-manager-when-my-people-are-doing-all-the-implementing/"),
+    ]};
 
